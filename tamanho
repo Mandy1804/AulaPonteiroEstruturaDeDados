@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	int   *ponteiro1;
+	char  *ponteiro2;
+	float *ponteiro3;
+	
+		printf("Tamanho: %d\n", sizeof (ponteiro1)); // tamanho em bites do int, char e float vão ser o mesmo (ou seja 8)
+		printf("Tamanho: %d\n", sizeof (ponteiro2)); // tamanho em bites do int, char e float vão ser o mesmo (ou seja 8)
+		printf("Tamanho: %d\n", sizeof (ponteiro3)); // tamanho em bites do int, char e float vão ser o mesmo (ou seja 8)
+		
+return 0;
+}
