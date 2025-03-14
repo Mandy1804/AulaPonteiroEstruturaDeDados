@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	char letra = 'f';
+	char *p; //ao criar um ponteiro
+	p = &letra; //ponteiro só recebe o endereço da variável
+	printf("Valor de letra: %c\n",letra);
+	printf("Endereco de letra: %p\n", &letra); //para obter o endereço de uma variável, colocar o &
+	printf("Valor de p: %p\n",p);
+	printf("Endereco de p: %p\n", &p);
+	printf("Valor apontando por p: %c\n",*p); //para obter o conteudo apontado pelo ponteiro
+
+return 0;
+}
